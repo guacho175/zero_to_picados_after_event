@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "node -r tsx scripts/translate-external-content.ts && next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "populate:cities": "node -r tsx scripts/populate-firebase-cities.ts"
   },
   "dependencies": {
     "@ai-sdk/groq": "^3.0.38",
