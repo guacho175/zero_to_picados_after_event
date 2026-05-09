@@ -4,279 +4,1139 @@
     "city": "Santiago",
     "headline": {
       "es": "Parques de Santiago Celebran la Llegada del Otono",
-      "en": "Parques de Santiago Celebran la Llegada del Otono"
+      "en": "Parks of Santiago Celebrate Autumn Arrival"
     },
     "summary": {
       "es": "Los principales parques de la capital abren sus puertas con actividades familiares y recorridos guiados para disfrutar de los colores del otono.",
-      "en": "Los principales parques de la capital abren sus puertas con actividades familiares y recorridos guiados para disfrutar de los colores del otono."
+      "en": "The capital's main parks open their doors with family activities and guided tours to enjoy autumn colors."
     },
     "category": "Comunidad",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/parques-santiago",
+    "source": "La Tercera",
+    "moodAffinity": "high",
+    "moodTags": ["naturaleza", "calma", "esperanza"],
+    "emoji": "🍂"
+  },
+  {
+    "id": 101,
+    "city": "Santiago",
+    "headline": {
+      "es": "Iniciativa de Salud Mental Llega a Comunidades Vulnerables",
+      "en": "Mental Health Initiative Reaches Vulnerable Communities"
+    },
+    "summary": {
+      "es": "Nuevos centros de bienestar ofrecen terapia gratuita y apoyo emocional para habitantes de barrios periféricos de Santiago.",
+      "en": "New wellness centers offer free therapy and emotional support for residents in Santiago's outlying neighborhoods."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-24",
+    "url": "https://example.com/salud-mental-santiago",
+    "source": "Emol",
+    "moodAffinity": "low",
+    "moodTags": ["apoyo", "conexion", "esperanza"],
+    "emoji": "🫂"
+  },
+  {
+    "id": 102,
+    "city": "Santiago",
+    "headline": {
+      "es": "Festival de Musica Independiente Transforma Barrio Lastarria",
+      "en": "Independent Music Festival Transforms Lastarria Neighborhood"
+    },
+    "summary": {
+      "es": "Artistas locales presentan nuevas composiciones en espacios urbanos convertidos en escenarios improvisados.",
+      "en": "Local artists showcase new compositions in urban spaces turned into improvised stages."
+    },
+    "category": "Arte",
+    "date": "2026-04-23",
+    "url": "https://example.com/musica-lastarria",
+    "source": "El Mostrador",
+    "moodAffinity": "high",
+    "moodTags": ["creatividad", "energia", "comunidad"],
+    "emoji": "🎵"
   },
   {
     "id": 2,
     "city": "Buenos Aires",
     "headline": {
       "es": "Festival de Tango Gratuito en San Telmo",
-      "en": "Festival de Tango Gratuito en San Telmo"
+      "en": "Free Tango Festival in San Telmo"
     },
     "summary": {
       "es": "Milongas al aire libre regresan al corazon de San Telmo celebrando la tradicion porteña con clases y shows en vivo.",
-      "en": "Milongas al aire libre regresan al corazon de San Telmo celebrando la tradicion porteña con clases y shows en vivo."
+      "en": "Open-air milongas return to the heart of San Telmo celebrating Buenos Aires tradition with classes and live shows."
     },
     "category": "Cultura",
-    "date": "2026-04-24"
+    "date": "2026-04-24",
+    "url": "https://example.com/tango-telmo",
+    "source": "Infobae",
+    "moodAffinity": "high",
+    "moodTags": ["danza", "tradicion", "alegria"],
+    "emoji": "💃"
+  },
+  {
+    "id": 201,
+    "city": "Buenos Aires",
+    "headline": {
+      "es": "Grupo de Apoyo Mutuo Crece en la Matanza",
+      "en": "Mutual Support Group Grows in La Matanza"
+    },
+    "summary": {
+      "es": "Vecinos se reúnen semanalmente para compartir experiencias y fortalecer vínculos comunitarios en momentos desafiantes.",
+      "en": "Neighbors meet weekly to share experiences and strengthen community bonds during challenging times."
+    },
+    "category": "Comunidad",
+    "date": "2026-04-23",
+    "url": "https://example.com/apoyo-matanza",
+    "source": "Página 12",
+    "moodAffinity": "low",
+    "moodTags": ["solidaridad", "conexion", "apoyo"],
+    "emoji": "🤝"
+  },
+  {
+    "id": 202,
+    "city": "Buenos Aires",
+    "headline": {
+      "es": "Artistas Urbanos Transforman Muros en Galeria Colectiva",
+      "en": "Urban Artists Transform Walls into Collective Gallery"
+    },
+    "summary": {
+      "es": "Jóvenes creadores convierten espacios públicos degradados en obras de arte que inspiran a la comunidad.",
+      "en": "Young creators convert degraded public spaces into artworks that inspire the community."
+    },
+    "category": "Arte",
+    "date": "2026-04-25",
+    "url": "https://example.com/muros-arte-ba",
+    "source": "Diario Perfil",
+    "moodAffinity": "high",
+    "moodTags": ["creatividad", "transformacion", "inspiracion"],
+    "emoji": "🎨"
   },
   {
     "id": 3,
     "city": "Lima",
     "headline": {
       "es": "Iniciativa Gastronomica Une a Comunidades",
-      "en": "Iniciativa Gastronomica Une a Comunidades"
+      "en": "Culinary Initiative Brings Communities Together"
     },
     "summary": {
       "es": "Chefs locales lanzan programa de cocinas comunitarias llevando la tradicion culinaria peruana a barrios vulnerables.",
-      "en": "Chefs locales lanzan programa de cocinas comunitarias llevando la tradicion culinaria peruana a barrios vulnerables."
+      "en": "Local chefs launch community kitchen program bringing Peruvian culinary tradition to vulnerable neighborhoods."
     },
     "category": "Sociedad",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/cocina-comunitaria",
+    "source": "La República",
+    "moodAffinity": "high",
+    "moodTags": ["comunidad", "tradicion", "alimentacion"],
+    "emoji": "🥘"
+  },
+  {
+    "id": 301,
+    "city": "Lima",
+    "headline": {
+      "es": "Proyecto Emocional Acompaña a Madres Solas",
+      "en": "Emotional Support Project for Single Mothers"
+    },
+    "summary": {
+      "es": "Voluntarios ofrecen cuidado infantil y asesoría emocional para fortalecer la resiliencia de madres en situación de vulnerabilidad.",
+      "en": "Volunteers offer childcare and emotional counseling to strengthen resilience of vulnerable single mothers."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-22",
+    "url": "https://example.com/madres-apoyo",
+    "source": "Andina",
+    "moodAffinity": "low",
+    "moodTags": ["compasion", "fortaleza", "apoyo"],
+    "emoji": "💪"
+  },
+  {
+    "id": 302,
+    "city": "Lima",
+    "headline": {
+      "es": "Festival de Danza Contemporanea Llena los Teatros de Lima",
+      "en": "Contemporary Dance Festival Fills Lima Theaters"
+    },
+    "summary": {
+      "es": "Coreógrafos peruanos y extranjeros presentan obras innovadoras que exploran la identidad y movimiento en escena.",
+      "en": "Peruvian and international choreographers present innovative works exploring identity and movement on stage."
+    },
+    "category": "Cultura",
+    "date": "2026-04-24",
+    "url": "https://example.com/danza-lima",
+    "source": "El Comercio",
+    "moodAffinity": "high",
+    "moodTags": ["expresion", "movimiento", "innovacion"],
+    "emoji": "💫"
   },
   {
     "id": 4,
     "city": "Bogota",
     "headline": {
       "es": "Ciclovias Dominicales se Expanden a Nuevas Zonas",
-      "en": "Ciclovias Dominicales se Expanden a Nuevas Zonas"
+      "en": "Sunday Bikeways Expand to New Areas"
     },
     "summary": {
       "es": "La red de ciclovias se amplía conectando mas barrios y promoviendo la movilidad sostenible en la capital colombiana.",
-      "en": "La red de ciclovias se amplía conectando mas barrios y promoviendo la movilidad sostenible en la capital colombiana."
+      "en": "The bike lane network expands connecting more neighborhoods and promoting sustainable mobility in the Colombian capital."
     },
     "category": "Movilidad",
-    "date": "2026-04-23"
+    "date": "2026-04-23",
+    "url": "https://example.com/ciclovias-bogota",
+    "source": "Caracol Radio",
+    "moodAffinity": "high",
+    "moodTags": ["movimiento", "libertad", "salud"],
+    "emoji": "🚴"
+  },
+  {
+    "id": 401,
+    "city": "Bogota",
+    "headline": {
+      "es": "Colectivo de Sanacion Lleva Rituales Ancestrales",
+      "en": "Healing Collective Brings Ancestral Rituals"
+    },
+    "summary": {
+      "es": "Indígenas y aliados urbanos comparten prácticas ancestrales de sanación y meditación en plazas públicas.",
+      "en": "Indigenous people and urban allies share ancestral healing and meditation practices in public squares."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-22",
+    "url": "https://example.com/sanacion-bogota",
+    "source": "BLU Radio",
+    "moodAffinity": "low",
+    "moodTags": ["paz", "tradicion", "sanacion"],
+    "emoji": "🕯️"
+  },
+  {
+    "id": 402,
+    "city": "Bogota",
+    "headline": {
+      "es": "Graffiti Artistico Transforma Puentes Suburbanos",
+      "en": "Artistic Graffiti Transforms Suburban Bridges"
+    },
+    "summary": {
+      "es": "Jóvenes muralistas convierten estructuras grises en explosiones de color y mensajes de transformación urbana.",
+      "en": "Young muralists convert gray structures into explosions of color and messages of urban transformation."
+    },
+    "category": "Arte",
+    "date": "2026-04-25",
+    "url": "https://example.com/graffiti-bogota",
+    "source": "El Tiempo",
+    "moodAffinity": "high",
+    "moodTags": ["color", "rebeldia", "creatividad"],
+    "emoji": "🎭"
   },
   {
     "id": 5,
     "city": "Mexico City",
     "headline": {
       "es": "Murales Comunitarios Transforman Colonias",
-      "en": "Murales Comunitarios Transforman Colonias"
+      "en": "Community Murals Transform Neighborhoods"
     },
     "summary": {
       "es": "Artistas locales y vecinos colaboran en la creacion de murales que cuentan historias de las comunidades.",
-      "en": "Artistas locales y vecinos colaboran en la creacion de murales que cuentan historias de las comunidades."
+      "en": "Local artists and neighbors collaborate in creating murals that tell the stories of their communities."
     },
     "category": "Arte",
-    "date": "2026-04-24"
+    "date": "2026-04-24",
+    "url": "https://example.com/murales-cdmx",
+    "source": "Reforma",
+    "moodAffinity": "high",
+    "moodTags": ["identidad", "comunidad", "voz"],
+    "emoji": "🎨"
+  },
+  {
+    "id": 501,
+    "city": "Mexico City",
+    "headline": {
+      "es": "Red de Apoyo Emocional se Expande en Iztapalapa",
+      "en": "Emotional Support Network Expands in Iztapalapa"
+    },
+    "summary": {
+      "es": "Voluntarios entrenan a vecinos en técnicas de primeros auxilios emocional para fortalecer el tejido comunitario.",
+      "en": "Volunteers train neighbors in emotional first aid techniques to strengthen community fabric."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-21",
+    "url": "https://example.com/apoyo-iztapalapa",
+    "source": "Milenio",
+    "moodAffinity": "low",
+    "moodTags": ["apoyo", "esperanza", "conexion"],
+    "emoji": "💝"
+  },
+  {
+    "id": 502,
+    "city": "Mexico City",
+    "headline": {
+      "es": "Festival de Danza Contemporanea Invade Chapultepec",
+      "en": "Contemporary Dance Festival Invades Chapultepec"
+    },
+    "summary": {
+      "es": "Coreógrafos experimentales presentan obras sin escenario en parques centrales, liberando la danza a las calles.",
+      "en": "Experimental choreographers present stageless works in central parks, liberating dance to the streets."
+    },
+    "category": "Cultura",
+    "date": "2026-04-25",
+    "url": "https://example.com/danza-chapultepec",
+    "source": "La Jornada",
+    "moodAffinity": "high",
+    "moodTags": ["libertad", "movimento", "alegria"],
+    "emoji": "🕺"
   },
   {
     "id": 6,
     "city": "Madrid",
     "headline": {
       "es": "Huertos Urbanos Florecen en la Capital",
-      "en": "Huertos Urbanos Florecen en la Capital"
+      "en": "Urban Gardens Flourish in the Capital"
     },
     "summary": {
       "es": "Mas de 50 nuevos huertos comunitarios abren en Madrid, acercando la agricultura sostenible a los barrios.",
-      "en": "Mas de 50 nuevos huertos comunitarios abren en Madrid, acercando la agricultura sostenible a los barrios."
+      "en": "More than 50 new community gardens open in Madrid, bringing sustainable agriculture to neighborhoods."
     },
     "category": "Medio Ambiente",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/huertos-madrid",
+    "source": "El País",
+    "moodAffinity": "medium",
+    "moodTags": ["naturaleza", "sostenibilidad", "comunidad"],
+    "emoji": "🌱"
+  },
+  {
+    "id": 601,
+    "city": "Madrid",
+    "headline": {
+      "es": "Grupo de Apoyo Mutuo para Personas en Transicion",
+      "en": "Mutual Support Group for People in Transition"
+    },
+    "summary": {
+      "es": "Espacios seguros donde personas comparten experiencias de cambio vital y construcción de identidad.",
+      "en": "Safe spaces where people share experiences of life changes and identity construction."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-23",
+    "url": "https://example.com/transicion-madrid",
+    "source": "Público",
+    "moodAffinity": "low",
+    "moodTags": ["autenticidad", "compasion", "crecimiento"],
+    "emoji": "🦋"
+  },
+  {
+    "id": 602,
+    "city": "Madrid",
+    "headline": {
+      "es": "Conciertos Nocturnos Reviven Barrios Dormitorios",
+      "en": "Night Concerts Revive Sleeping Neighborhoods"
+    },
+    "summary": {
+      "es": "Musicos de diversos géneros transforman calles periféricas en escenarios improvisados bajo las estrellas.",
+      "en": "Musicians of diverse genres transform peripheral streets into improvised stages under the stars."
+    },
+    "category": "Musica",
+    "date": "2026-04-24",
+    "url": "https://example.com/conciertos-madrid",
+    "source": "Madridiario",
+    "moodAffinity": "high",
+    "moodTags": ["musica", "comunidad", "vibrante"],
+    "emoji": "🎸"
   },
   {
     "id": 7,
     "city": "Barcelona",
     "headline": {
       "es": "Bibliotecas al Aire Libre en las Playas",
-      "en": "Bibliotecas al Aire Libre en las Playas"
+      "en": "Open-Air Libraries on the Beaches"
     },
     "summary": {
       "es": "Puntos de lectura gratuitos se instalan en las playas barcelonesas promoviendo la cultura y la desconexion digital.",
-      "en": "Puntos de lectura gratuitos se instalan en las playas barcelonesas promoviendo la cultura y la desconexion digital."
+      "en": "Free reading points are installed on Barcelona's beaches promoting culture and digital disconnection."
     },
     "category": "Cultura",
-    "date": "2026-04-22"
+    "date": "2026-04-22",
+    "url": "https://example.com/bibliotecas-playa",
+    "source": "Ara.cat",
+    "moodAffinity": "medium",
+    "moodTags": ["tranquilidad", "lectura", "naturaleza"],
+    "emoji": "📚"
+  },
+  {
+    "id": 701,
+    "city": "Barcelona",
+    "headline": {
+      "es": "Terapia Grupal al Aire Libre Cura Sindrome del Burnout",
+      "en": "Group Therapy Outdoors Heals Burnout Syndrome"
+    },
+    "summary": {
+      "es": "Psicólogos voluntarios guían sesiones de sanación en parques, ayudando a personas a recuperar energia vital.",
+      "en": "Volunteer psychologists guide healing sessions in parks, helping people recover vital energy."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-21",
+    "url": "https://example.com/terapia-barcelona",
+    "source": "Diari de Barcelona",
+    "moodAffinity": "low",
+    "moodTags": ["recuperacion", "calma", "bienestar"],
+    "emoji": "🌿"
+  },
+  {
+    "id": 702,
+    "city": "Barcelona",
+    "headline": {
+      "es": "Festival de Percusion Emocional Invade Plazas Publicas",
+      "en": "Emotional Percussion Festival Invades Public Squares"
+    },
+    "summary": {
+      "es": "Percusionistas de culturas ancestrales comparten ritmos que conectan el cuerpo y alma en danzas grupales.",
+      "en": "Percussionists from ancestral cultures share rhythms connecting body and soul in group dances."
+    },
+    "category": "Cultura",
+    "date": "2026-04-25",
+    "url": "https://example.com/percusion-bcn",
+    "source": "Diario de Barcelona",
+    "moodAffinity": "high",
+    "moodTags": ["ritmo", "conexion", "vitalidad"],
+    "emoji": "🥁"
   },
   {
     "id": 8,
     "city": "Miami",
     "headline": {
       "es": "Comunidad Latina Organiza Festival de Bienestar",
-      "en": "Comunidad Latina Organiza Festival de Bienestar"
+      "en": "Latin Community Organizes Wellness Festival"
     },
     "summary": {
       "es": "Un fin de semana dedicado a la salud mental y el bienestar reune a familias con yoga, meditacion y talleres gratuitos.",
-      "en": "Un fin de semana dedicado a la salud mental y el bienestar reune a familias con yoga, meditacion y talleres gratuitos."
+      "en": "A weekend dedicated to mental health and wellness brings families together with yoga, meditation and free workshops."
     },
     "category": "Bienestar",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/festival-bienestar-miami",
+    "source": "El Nuevo Herald",
+    "moodAffinity": "high",
+    "moodTags": ["familia", "equilibrio", "alegria"],
+    "emoji": "🧘"
+  },
+  {
+    "id": 801,
+    "city": "Miami",
+    "headline": {
+      "es": "Grupo de Crianza Consciente Llega a Wynwood",
+      "en": "Conscious Parenting Group Reaches Wynwood"
+    },
+    "summary": {
+      "es": "Padres se reúnen para compartir desafios de crianza y construir una comunidad de apoyo multigeneracional.",
+      "en": "Parents meet to share parenting challenges and build a multigenerational support community."
+    },
+    "category": "Comunidad",
+    "date": "2026-04-22",
+    "url": "https://example.com/crianza-wynwood",
+    "source": "Miami.com",
+    "moodAffinity": "low",
+    "moodTags": ["familia", "apoyo", "amor"],
+    "emoji": "👨‍👩‍👧‍👦"
+  },
+  {
+    "id": 802,
+    "city": "Miami",
+    "headline": {
+      "es": "Street Art Tribute Celebra Identidades Diversas",
+      "en": "Street Art Tribute Celebrates Diverse Identities"
+    },
+    "summary": {
+      "es": "Artistas afrolatinos transforman muros grises en testimonios visuales de historia, resistencia y esperanza.",
+      "en": "Afro-Latino artists transform gray walls into visual testimonies of history, resistance and hope."
+    },
+    "category": "Arte",
+    "date": "2026-04-24",
+    "url": "https://example.com/street-art-miami",
+    "source": "Wynwood Walls",
+    "moodAffinity": "high",
+    "moodTags": ["identidad", "poder", "expresion"],
+    "emoji": "🖼️"
   },
   {
     "id": 9,
     "city": "Nueva York",
     "headline": {
       "es": "Iniciativa de Arte Comunitario en el Bronx",
-      "en": "Iniciativa de Arte Comunitario en el Bronx"
+      "en": "Community Art Initiative in the Bronx"
     },
     "summary": {
       "es": "Artistas y residentes colaboran en murales gigantes que transforman espacios urbanos con historias locales.",
-      "en": "Artistas y residentes colaboran en murales gigantes que transforman espacios urbanos con historias locales."
+      "en": "Artists and residents collaborate on giant murals transforming urban spaces with local stories."
     },
     "category": "Arte",
-    "date": "2026-04-24"
+    "date": "2026-04-24",
+    "url": "https://example.com/bronx-art",
+    "source": "The New York Times",
+    "moodAffinity": "high",
+    "moodTags": ["comunidad", "transformacion", "poder"],
+    "emoji": "🏙️"
+  },
+  {
+    "id": 901,
+    "city": "Nueva York",
+    "headline": {
+      "es": "Red de Apoyo para Personas en Duelo Se Expande",
+      "en": "Support Network for Grieving Expands"
+    },
+    "summary": {
+      "es": "Grupos de apoyo mutuo ofrecen espacios de contención para procesar pérdidas en comunidad.",
+      "en": "Mutual support groups offer spaces to process losses in community."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-20",
+    "url": "https://example.com/duelo-ny",
+    "source": "WNYC",
+    "moodAffinity": "low",
+    "moodTags": ["acompanamiento", "paz", "sanacion"],
+    "emoji": "🕊️"
+  },
+  {
+    "id": 902,
+    "city": "Nueva York",
+    "headline": {
+      "es": "Hip-Hop Healing Cypher Ocupa Union Square",
+      "en": "Hip-Hop Healing Cypher Takes Union Square"
+    },
+    "summary": {
+      "es": "MC's y productores usan la musica para sanar traumas y construir comunidad en el corazon de Manhattan.",
+      "en": "MCs and producers use music to heal trauma and build community in the heart of Manhattan."
+    },
+    "category": "Musica",
+    "date": "2026-04-25",
+    "url": "https://example.com/hiphop-ny",
+    "source": "Hyperallergic",
+    "moodAffinity": "high",
+    "moodTags": ["poder", "voz", "sanacion"],
+    "emoji": "🎤"
   },
   {
     "id": 10,
     "city": "Londres",
     "headline": {
       "es": "Festival de Musica Callejera en Camden",
-      "en": "Festival de Musica Callejera en Camden"
+      "en": "Street Music Festival in Camden"
     },
     "summary": {
       "es": "Musicos locales y artistas se reúnen para celebrar la creatividad urbana con conciertos gratuitos.",
-      "en": "Musicos locales y artistas se reúnen para celebrar la creatividad urbana con conciertos gratuitos."
+      "en": "Local musicians and artists gather to celebrate urban creativity with free concerts."
     },
     "category": "Musica",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/camden-festival",
+    "source": "The Guardian",
+    "moodAffinity": "high",
+    "moodTags": ["musica", "libertad", "arte"],
+    "emoji": "🎵"
+  },
+  {
+    "id": 1001,
+    "city": "Londres",
+    "headline": {
+      "es": "Circulo de Mujeres Tejedoras Sana Colectivamente",
+      "en": "Women's Weaving Circle Heals Collectively"
+    },
+    "summary": {
+      "es": "Mujeres de distintas edades y origenes tejen juntas mientras comparten historias de fortaleza y resiliencia.",
+      "en": "Women of different ages and origins weave together while sharing stories of strength and resilience."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-19",
+    "url": "https://example.com/tejiendo-londres",
+    "source": "BBC",
+    "moodAffinity": "low",
+    "moodTags": ["tejido", "hermandad", "creacion"],
+    "emoji": "🧵"
+  },
+  {
+    "id": 1002,
+    "city": "Londres",
+    "headline": {
+      "es": "Slam Poetry Celebra Voces Silenciadas",
+      "en": "Slam Poetry Celebrates Silenced Voices"
+    },
+    "summary": {
+      "es": "Poetas de comunidades marginadas toman microfono en espacios publicos para narrar sus realidades con poder.",
+      "en": "Poets from marginalized communities take the mic in public spaces to narrate their realities powerfully."
+    },
+    "category": "Cultura",
+    "date": "2026-04-24",
+    "url": "https://example.com/slam-london",
+    "source": "Vice UK",
+    "moodAffinity": "high",
+    "moodTags": ["voz", "libertad", "verdad"],
+    "emoji": "📖"
   },
   {
     "id": 11,
     "city": "Paris",
     "headline": {
       "es": "Iniciativa de Bienestar Mental en Marais",
-      "en": "Iniciativa de Bienestar Mental en Marais"
+      "en": "Mental Wellness Initiative in Marais"
     },
     "summary": {
       "es": "Grupos comunitarios lanzan programa de meditacion y mindfulness en espacios públicos parisinos.",
-      "en": "Grupos comunitarios lanzan programa de meditacion y mindfulness en espacios públicos parisinos."
+      "en": "Community groups launch meditation and mindfulness programs in Parisian public spaces."
     },
     "category": "Bienestar",
-    "date": "2026-04-24"
+    "date": "2026-04-24",
+    "url": "https://example.com/marais-meditation",
+    "source": "France Culture",
+    "moodAffinity": "low",
+    "moodTags": ["paz", "meditacion", "armonia"],
+    "emoji": "🧘‍♀️"
+  },
+  {
+    "id": 1101,
+    "city": "Paris",
+    "headline": {
+      "es": "Talleres de Testimonio Atraviesan Desigualdades",
+      "en": "Testimony Workshops Cross Inequalities"
+    },
+    "summary": {
+      "es": "Inmigrantes y ciudadanos nativos comparten historias de vida que tejen entendimiento mutuo.",
+      "en": "Immigrants and native citizens share life stories that weave mutual understanding."
+    },
+    "category": "Comunidad",
+    "date": "2026-04-21",
+    "url": "https://example.com/testimonio-paris",
+    "source": "Le Monde",
+    "moodAffinity": "low",
+    "moodTags": ["empatia", "conexion", "puentes"],
+    "emoji": "🌉"
+  },
+  {
+    "id": 1102,
+    "city": "Paris",
+    "headline": {
+      "es": "Festival de Teatro Callejero Desata Creatividad",
+      "en": "Street Theater Festival Unleashes Creativity"
+    },
+    "summary": {
+      "es": "Actores y directores reimaginan espacios urbanos como escenarios de transformación social y cultural.",
+      "en": "Actors and directors reimagine urban spaces as stages for social and cultural transformation."
+    },
+    "category": "Cultura",
+    "date": "2026-04-25",
+    "url": "https://example.com/teatro-paris",
+    "source": "Théâtre Aujourd'hui",
+    "moodAffinity": "high",
+    "moodTags": ["imaginacion", "libertad", "teatralidad"],
+    "emoji": "🎭"
   },
   {
     "id": 12,
     "city": "Berlin",
     "headline": {
       "es": "Espacios Comunitarios Recuperan Barrios Historicos",
-      "en": "Espacios Comunitarios Recuperan Barrios Historicos"
+      "en": "Community Spaces Reclaim Historic Neighborhoods"
     },
     "summary": {
       "es": "Antiguos edificios se transforman en centros culturales y espacios de encuentro para la comunidad berlinesa.",
-      "en": "Antiguos edificios se transforman en centros culturales y espacios de encuentro para la comunidad berlinesa."
+      "en": "Old buildings transform into cultural centers and meeting spaces for the Berlin community."
     },
     "category": "Comunidad",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/berlin-espacios",
+    "source": "Tagesspiegel",
+    "moodAffinity": "high",
+    "moodTags": ["historia", "comunidad", "renacimiento"],
+    "emoji": "🏛️"
+  },
+  {
+    "id": 1201,
+    "city": "Berlin",
+    "headline": {
+      "es": "Retiros de Sanacion Intergeneracional en la Naturaleza",
+      "en": "Intergenerational Healing Retreats in Nature"
+    },
+    "summary": {
+      "es": "Abuelos y nietos se reúnen para sanar traumas historicos y fortalecer raices familiares.",
+      "en": "Grandparents and grandchildren gather to heal historical traumas and strengthen family roots."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-20",
+    "url": "https://example.com/intergeneracional-berlin",
+    "source": "Der Tagesspiegel",
+    "moodAffinity": "low",
+    "moodTags": ["familia", "sanacion", "raices"],
+    "emoji": "🌳"
+  },
+  {
+    "id": 1202,
+    "city": "Berlin",
+    "headline": {
+      "es": "Tecno Colectivo Crea Comunidad Danzante",
+      "en": "Collective Techno Creates Dancing Community"
+    },
+    "summary": {
+      "es": "DJ's y productores transforman espacios abandonados en templos de sonido donde la tecnologia y lo humano se fusionan.",
+      "en": "DJs and producers transform abandoned spaces into sound temples where technology and humanity fuse."
+    },
+    "category": "Musica",
+    "date": "2026-04-23",
+    "url": "https://example.com/tecno-berlin",
+    "source": "Resident Advisor",
+    "moodAffinity": "high",
+    "moodTags": ["ritmo", "libertad", "trance"],
+    "emoji": "🎧"
   },
   {
     "id": 13,
     "city": "Amsterdam",
     "headline": {
       "es": "Ciclovias Ampliadas Conectan Ciudadanos",
-      "en": "Ciclovias Ampliadas Conectan Ciudadanos"
+      "en": "Expanded Bikeways Connect Citizens"
     },
     "summary": {
       "es": "La red de bicicletas se expande promoviendo la movilidad sostenible y conexion comunitaria.",
-      "en": "La red de bicicletas se expande promoviendo la movilidad sostenible y conexion comunitaria."
+      "en": "The bike network expands promoting sustainable mobility and community connection."
     },
     "category": "Movilidad",
-    "date": "2026-04-23"
+    "date": "2026-04-23",
+    "url": "https://example.com/ciclovias-ams",
+    "source": "NOS",
+    "moodAffinity": "medium",
+    "moodTags": ["libertad", "sostenibilidad", "comunidad"],
+    "emoji": "🚲"
+  },
+  {
+    "id": 1301,
+    "city": "Amsterdam",
+    "headline": {
+      "es": "Cafes de Escucha Activa Cultivan Empatia",
+      "en": "Active Listening Cafes Cultivate Empathy"
+    },
+    "summary": {
+      "es": "Espacios donde extraños se encuentran para escucharse profundamente, sanando soledades urbanas.",
+      "en": "Spaces where strangers meet to listen deeply to each other, healing urban loneliness."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-18",
+    "url": "https://example.com/escucha-ams",
+    "source": "I Amsterdam",
+    "moodAffinity": "low",
+    "moodTags": ["escucha", "conexion", "compasion"],
+    "emoji": "☕"
+  },
+  {
+    "id": 1302,
+    "city": "Amsterdam",
+    "headline": {
+      "es": "Experimentales Electronicos Reimaginan Espacios",
+      "en": "Electronic Experimentals Reimagine Spaces"
+    },
+    "summary": {
+      "es": "Artistas sonoros y visuales crean instalaciones inmersivas que transforman la percepcion urbana.",
+      "en": "Sound and visual artists create immersive installations that transform urban perception."
+    },
+    "category": "Cultura",
+    "date": "2026-04-24",
+    "url": "https://example.com/art-ams",
+    "source": "Amsterdam Graffiti",
+    "moodAffinity": "high",
+    "moodTags": ["experimentacion", "percepcion", "magia"],
+    "emoji": "✨"
   },
   {
     "id": 14,
     "city": "Tokyo",
     "headline": {
       "es": "Jardines Comunitarios Florecen en Shinjuku",
-      "en": "Jardines Comunitarios Florecen en Shinjuku"
+      "en": "Community Gardens Flourish in Shinjuku"
     },
     "summary": {
       "es": "Residentes crean espacios verdes en medio de la ciudad, promoviendo la conexion con la naturaleza.",
-      "en": "Residentes crean espacios verdes en medio de la ciudad, promoviendo la conexion con la naturaleza."
+      "en": "Residents create green spaces in the heart of the city, promoting connection with nature."
     },
     "category": "Medio Ambiente",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/jardines-tokyo",
+    "source": "NHK",
+    "moodAffinity": "medium",
+    "moodTags": ["naturaleza", "tranquilidad", "armonia"],
+    "emoji": "🌸"
+  },
+  {
+    "id": 1401,
+    "city": "Tokyo",
+    "headline": {
+      "es": "Rituales de Meditacion en Santuarios Urbanos",
+      "en": "Meditation Rituals in Urban Sanctuaries"
+    },
+    "summary": {
+      "es": "Templos ancestrales abren sus puertas a trabajadores urbanos para sesiones de quietud y renovacion espiritual.",
+      "en": "Ancient temples open their doors to urban workers for sessions of stillness and spiritual renewal."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-17",
+    "url": "https://example.com/templos-tokyo",
+    "source": "Japan Times",
+    "moodAffinity": "low",
+    "moodTags": ["espiritu", "quietud", "renovacion"],
+    "emoji": "🏮"
+  },
+  {
+    "id": 1402,
+    "city": "Tokyo",
+    "headline": {
+      "es": "Colectivo de Luz Proyecta Esperanza en Shibuya",
+      "en": "Light Collective Projects Hope in Shibuya"
+    },
+    "summary": {
+      "es": "Artistas de luz digital crean instalaciones que iluminan noches con mensajes de resiliencia comunitaria.",
+      "en": "Digital light artists create installations illuminating nights with messages of community resilience."
+    },
+    "category": "Cultura",
+    "date": "2026-04-25",
+    "url": "https://example.com/luz-tokyo",
+    "source": "Tokyo Art Beat",
+    "moodAffinity": "high",
+    "moodTags": ["luz", "esperanza", "belleza"],
+    "emoji": "💫"
   },
   {
     "id": 15,
     "city": "Bangkok",
     "headline": {
       "es": "Mercados Nocturnos Celebran Tradicion Local",
-      "en": "Mercados Nocturnos Celebran Tradicion Local"
+      "en": "Night Markets Celebrate Local Tradition"
     },
     "summary": {
       "es": "Vendedores y artesanos locales se reunen en mercados culturales para compartir tradiciones tailandesas.",
-      "en": "Vendedores y artesanos locales se reunen en mercados culturales para compartir tradiciones tailandesas."
+      "en": "Local vendors and artisans gather in cultural markets to share Thai traditions."
     },
     "category": "Cultura",
-    "date": "2026-04-24"
+    "date": "2026-04-24",
+    "url": "https://example.com/mercados-bangkok",
+    "source": "Bangkok Post",
+    "moodAffinity": "high",
+    "moodTags": ["tradicion", "comunidad", "abundancia"],
+    "emoji": "🏮"
+  },
+  {
+    "id": 1501,
+    "city": "Bangkok",
+    "headline": {
+      "es": "Monasterios Ofrecen Retiros de Sanacion Buddhista",
+      "en": "Monasteries Offer Buddhist Healing Retreats"
+    },
+    "summary": {
+      "es": "Monjes comparten enseñanzas ancestrales con visitantes buscando paz en tiempos turbulentos.",
+      "en": "Monks share ancestral teachings with visitors seeking peace in turbulent times."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-16",
+    "url": "https://example.com/monasterios-bangkok",
+    "source": "Khmer Times",
+    "moodAffinity": "low",
+    "moodTags": ["sabiduria", "paz", "iluminacion"],
+    "emoji": "🙏"
+  },
+  {
+    "id": 1502,
+    "city": "Bangkok",
+    "headline": {
+      "es": "Carnaval de Colores Inunda las Calles de Silom",
+      "en": "Carnival of Colors Floods Silom Streets"
+    },
+    "summary": {
+      "es": "Drag queens, activistas y aliados celebran diversidad e identidad en desfile de libertad y expresion.",
+      "en": "Drag queens, activists and allies celebrate diversity and identity in a parade of freedom and expression."
+    },
+    "category": "Comunidad",
+    "date": "2026-04-25",
+    "url": "https://example.com/carnaval-bangkok",
+    "source": "Out Thailand",
+    "moodAffinity": "high",
+    "moodTags": ["libertad", "orgullo", "celebracion"],
+    "emoji": "🏳️‍🌈"
   },
   {
     "id": 16,
     "city": "Estambul",
     "headline": {
       "es": "Proyecto de Murales Une Oriente y Occidente",
-      "en": "Proyecto de Murales Une Oriente y Occidente"
+      "en": "Mural Project Unites East and West"
     },
     "summary": {
       "es": "Artistas de ambos lados del Bosforo colaboran en iniciativa de arte publico que celebra la diversidad.",
-      "en": "Artistas de ambos lados del Bosforo colaboran en iniciativa de arte publico que celebra la diversidad."
+      "en": "Artists from both sides of the Bosphorus collaborate on public art celebrating diversity."
     },
     "category": "Arte",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/bosforo-murales",
+    "source": "Hurriyet",
+    "moodAffinity": "high",
+    "moodTags": ["puentes", "unidad", "creatividad"],
+    "emoji": "🌉"
+  },
+  {
+    "id": 1601,
+    "city": "Estambul",
+    "headline": {
+      "es": "Circulos Femeninos Tejen Resistencia y Cura",
+      "en": "Women's Circles Weave Resistance and Healing"
+    },
+    "summary": {
+      "es": "Mujeres de distintas generaciones se encuentran para sanar heridas historicas y fortalecer lazos.",
+      "en": "Women of different generations meet to heal historical wounds and strengthen bonds."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-19",
+    "url": "https://example.com/mujeres-estambul",
+    "source": "Radikal",
+    "moodAffinity": "low",
+    "moodTags": ["sorroridad", "poder", "sanacion"],
+    "emoji": "💪"
+  },
+  {
+    "id": 1602,
+    "city": "Estambul",
+    "headline": {
+      "es": "Musica Sufi Sana Almas en Mezquitas Centenarias",
+      "en": "Sufi Music Heals Souls in Centuries-Old Mosques"
+    },
+    "summary": {
+      "es": "Sefardis y danzadores de trance invitan al extasis sagrado en ceremonias de sometimiento a lo divino.",
+      "en": "Sephardic and trance dancers invite sacred ecstasy in ceremonies of surrender to the divine."
+    },
+    "category": "Cultura",
+    "date": "2026-04-24",
+    "url": "https://example.com/sufi-estambul",
+    "source": "Sabah",
+    "moodAffinity": "high",
+    "moodTags": ["espiritu", "extasis", "sacralidad"],
+    "emoji": "🎼"
   },
   {
     "id": 17,
     "city": "Dubai",
     "headline": {
       "es": "Festival de Bienestar Global en Marina",
-      "en": "Festival de Bienestar Global en Marina"
+      "en": "Global Wellness Festival at Marina"
     },
     "summary": {
       "es": "Evento internacional reune practicantes de yoga, meditacion y bienestar de toda la region.",
-      "en": "Evento internacional reune practicantes de yoga, meditacion y bienestar de toda la region."
+      "en": "International event brings together yoga, meditation and wellness practitioners from across the region."
     },
     "category": "Bienestar",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/bienestar-dubai",
+    "source": "Gulf News",
+    "moodAffinity": "high",
+    "moodTags": ["equilibrio", "movimiento", "internacionalizacion"],
+    "emoji": "🧘"
+  },
+  {
+    "id": 1701,
+    "city": "Dubai",
+    "headline": {
+      "es": "Oasis de Sanacion para Migrantes en Al Manara",
+      "en": "Healing Oasis for Migrants in Al Manara"
+    },
+    "summary": {
+      "es": "Voluntarios cuidadores ofrecen espacios de respiro y apoyo emocional para trabajadores lejos de casa.",
+      "en": "Volunteer caregivers offer respite and emotional support for workers far from home."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-18",
+    "url": "https://example.com/migrantes-dubai",
+    "source": "The National",
+    "moodAffinity": "low",
+    "moodTags": ["compasion", "acogida", "dignidad"],
+    "emoji": "🌴"
+  },
+  {
+    "id": 1702,
+    "city": "Dubai",
+    "headline": {
+      "es": "Noches de Musica Electronica Transforman Desierto",
+      "en": "Electronic Music Nights Transform Desert"
+    },
+    "summary": {
+      "es": "DJ's globales crean experiencias sonoras inmersivas donde multitudes vibran en frecuencias de conexion.",
+      "en": "Global DJs create immersive sound experiences where crowds vibrate in frequencies of connection."
+    },
+    "category": "Musica",
+    "date": "2026-04-25",
+    "url": "https://example.com/musica-dubai",
+    "source": "Time Out Dubai",
+    "moodAffinity": "high",
+    "moodTags": ["ritmo", "tecnologia", "trance"],
+    "emoji": "🎵"
   },
   {
     "id": 18,
     "city": "Sydney",
     "headline": {
       "es": "Iniciativa Oceanica Conecta Comunidades Costeras",
-      "en": "Iniciativa Oceanica Conecta Comunidades Costeras"
+      "en": "Ocean Initiative Connects Coastal Communities"
     },
     "summary": {
       "es": "Programas de conservacion marina involucran a residentes en la proteccion de ecosistemas locales.",
-      "en": "Programas de conservacion marina involucran a residentes en la proteccion de ecosistemas locales."
+      "en": "Marine conservation programs involve residents in protecting local ecosystems."
     },
     "category": "Medio Ambiente",
-    "date": "2026-04-24"
+    "date": "2026-04-24",
+    "url": "https://example.com/oceano-sydney",
+    "source": "ABC",
+    "moodAffinity": "medium",
+    "moodTags": ["naturaleza", "conservacion", "conexion"],
+    "emoji": "🌊"
+  },
+  {
+    "id": 1801,
+    "city": "Sydney",
+    "headline": {
+      "es": "Circulos de Mujeres Indigenas Honran Ancestros",
+      "en": "Indigenous Women's Circles Honor Ancestors"
+    },
+    "summary": {
+      "es": "Mujeres de pueblos originarios comparten ceremonias de sanacion que reconectan con tierra y linaje.",
+      "en": "Women from Indigenous peoples share healing ceremonies that reconnect with land and lineage."
+    },
+    "category": "Bienestar",
+    "date": "2026-04-15",
+    "url": "https://example.com/indigenas-sydney",
+    "source": "NITV",
+    "moodAffinity": "low",
+    "moodTags": ["ancestralidad", "sanacion", "tierra"],
+    "emoji": "🌍"
+  },
+  {
+    "id": 1802,
+    "city": "Sydney",
+    "headline": {
+      "es": "Conciertos Acusticos Transforman Playas en Escenarios",
+      "en": "Acoustic Concerts Transform Beaches into Stages"
+    },
+    "summary": {
+      "es": "Musicos independientes presentan conciertos bajo las estrellas donde el oceano es la audiencia.",
+      "en": "Independent musicians perform under the stars where the ocean is the audience."
+    },
+    "category": "Musica",
+    "date": "2026-04-25",
+    "url": "https://example.com/conciertos-sydney",
+    "source": "Concrete Playground",
+    "moodAffinity": "high",
+    "moodTags": ["libertad", "naturaleza", "musica"],
+    "emoji": "🎸"
   },
   {
     "id": 19,
     "city": "Toronto",
     "headline": {
       "es": "Festival Multicultural Celebra Diversidad",
-      "en": "Festival Multicultural Celebra Diversidad"
+      "en": "Multicultural Festival Celebrates Diversity"
     },
     "summary": {
       "es": "Comunidades de todo el mundo se reúnen para compartir musica, comida y tradiciones en Toronto.",
-      "en": "Comunidades de todo el mundo se reúnen para compartir musica, comida y tradiciones en Toronto."
+      "en": "Communities from around the world gather to share music, food and traditions in Toronto."
     },
     "category": "Cultura",
-    "date": "2026-04-25"
+    "date": "2026-04-25",
+    "url": "https://example.com/multiculti-toronto",
+    "source": "Toronto.com",
+    "moodAffinity": "high",
+    "moodTags": ["diversidad", "fiesta", "union"],
+    "emoji": "🌍"
+  },
+  {
+    "id": 1901,
+    "city": "Toronto",
+    "headline": {
+      "es": "Grupos de Apoyo para Migrantes Ofrecen Acogida",
+      "en": "Support Groups for Migrants Offer Welcome"
+    },
+    "summary": {
+      "es": "Voluntarios ayudan a recién llegados a navegar nuevas culturas mientras construyen amistades duraderas.",
+      "en": "Volunteers help newcomers navigate new cultures while building lasting friendships."
+    },
+    "category": "Comunidad",
+    "date": "2026-04-20",
+    "url": "https://example.com/migrantes-toronto",
+    "source": "Toronto Star",
+    "moodAffinity": "low",
+    "moodTags": ["acogida", "puentes", "comunidad"],
+    "emoji": "🤗"
+  },
+  {
+    "id": 1902,
+    "city": "Toronto",
+    "headline": {
+      "es": "Festival de Teatro Queer Llena Espacios Urbanos",
+      "en": "Queer Theater Festival Fills Urban Spaces"
+    },
+    "summary": {
+      "es": "Artistas trans e intersex presentan obras que celebran identidad, deseo y libertad sobre escena.",
+      "en": "Trans and intersex artists present works celebrating identity, desire and freedom on stage."
+    },
+    "category": "Cultura",
+    "date": "2026-04-23",
+    "url": "https://example.com/queer-toronto",
+    "source": "NOW Toronto",
+    "moodAffinity": "high",
+    "moodTags": ["liberacion", "identidad", "artistria"],
+    "emoji": "✨"
   },
   {
     "id": 20,
     "city": "Ciudad de Mexico",
     "headline": {
       "es": "Caminos de Memoria Honran Historia Local",
-      "en": "Caminos de Memoria Honran Historia Local"
+      "en": "Memory Paths Honor Local History"
     },
     "summary": {
       "es": "Recorridos guiados por residentes revelan historias ocultas y tradiciones de barrios emblemáticos.",
-      "en": "Recorridos guiados por residentes revelan historias ocultas y tradiciones de barrios emblemáticos."
+      "en": "Resident-guided tours reveal hidden stories and traditions of iconic neighborhoods."
     },
     "category": "Historia",
-    "date": "2026-04-24"
+    "date": "2026-04-24",
+    "url": "https://example.com/memoria-cdmx",
+    "source": "Animal Político",
+    "moodAffinity": "low",
+    "moodTags": ["historia", "memoria", "raices"],
+    "emoji": "🧭"
+  },
+  {
+    "id": 2001,
+    "city": "Ciudad de Mexico",
+    "headline": {
+      "es": "Redes de Cuidado Comunitario Tejen Solidaridad",
+      "en": "Community Care Networks Weave Solidarity"
+    },
+    "summary": {
+      "es": "Vecinos se organizan para cuidar a ancianos, niños y personas vulnerables en lazos de mutualismo.",
+      "en": "Neighbors organize to care for elderly, children and vulnerable people in bonds of mutualism."
+    },
+    "category": "Comunidad",
+    "date": "2026-04-18",
+    "url": "https://example.com/cuidado-cdmx",
+    "source": "Proceso",
+    "moodAffinity": "low",
+    "moodTags": ["solidaridad", "cuidado", "hermandad"],
+    "emoji": "🤝"
+  },
+  {
+    "id": 2002,
+    "city": "Ciudad de Mexico",
+    "headline": {
+      "es": "Movimiento Hip-Hop Reconstruye Barrios Olvidados",
+      "en": "Hip-Hop Movement Rebuilds Forgotten Neighborhoods"
+    },
+    "summary": {
+      "es": "Productores y raperos crean soundtrack de resistencia donde jóvenes cobran voz en sus territorios.",
+      "en": "Producers and rappers create soundtrack of resistance where youth gain voice in their territories."
+    },
+    "category": "Musica",
+    "date": "2026-04-25",
+    "url": "https://example.com/hiphop-cdmx",
+    "source": "Vice México",
+    "moodAffinity": "high",
+    "moodTags": ["voz", "resistencia", "poder"],
+    "emoji": "🎤"
   }
 ]
