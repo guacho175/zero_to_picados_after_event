@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { RootNav } from '@/components/root-nav'
 import { LanguageProvider } from '@/contexts/LanguageContext'
 import { SolanaWalletProvider } from '@/components/solana/solana-wallet-provider'
+import { FirebaseCitiesInitializer } from '@/components/firebase-cities-initializer'
 import './globals.css'
 
 const nunito = Nunito({ 
@@ -53,6 +54,7 @@ export default function RootLayout({
       <body className={`${nunito.variable} font-sans antialiased bg-background`} style={{ backgroundColor: '#0a0e17' }}>
         <SolanaWalletProvider>
           <LanguageProvider>
+            <FirebaseCitiesInitializer />
             <RootNav />
             {children}
           </LanguageProvider>

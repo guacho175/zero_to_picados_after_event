@@ -4,6 +4,7 @@ import { MapPin } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useTranslation } from "@/contexts/LanguageContext"
 import { useState, useEffect } from "react"
+import { getCitiesAsArray } from "@/lib/firebase-cities"
 
 interface CitySelectorProps {
   value: string
@@ -11,82 +12,46 @@ interface CitySelectorProps {
   agentId?: string
 }
 
-interface RecommendationsData {
-  generatedAt: string
-  lastUpdated: string
-  description: string
-  agents: Array<{
-    agentId: string
-    agentName: string
-    description: string
-    cities: string[]
-    news: Array<{
-      title: string
-      description: string
-      emoji: string
-      theme: string
-      motivationIndex: number
-    }>
-    emotions: string[]
-    teamBuildingLessons: string[]
-  }>
-  events: Record<string, any>
-  motivationalThemes: Record<string, string>
-  cityEmojis: Record<string, string>
-  fallbackNews?: Record<string, any[]>
-}
+// Fallback cities - always available as last resort
+const FALLBACK_CITIES = [
+  { name: "Santiago", icon: "🏔️", country: "Chile" },
+  { name: "Mendoza", icon: "🍷", country: "Argentina" },
+  { name: "Buenos Aires", icon: "🎭", country: "Argentina" },
+  { name: "Lima", icon: "🌊", country: "Peru" },
+  { name: "Bogota", icon: "🌿", country: "Colombia" },
+]
 
 export function CitySelector({ value, onChange, agentId }: CitySelectorProps) {
   const { t } = useTranslation()
-  const [dynamicCities, setDynamicCities] = useState<string[]>([])
+  const [citiesToDisplay, setCitiesToDisplay] = useState<Array<{ name: string; icon: string; country: string }>>(FALLBACK_CITIES)
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    const loadDynamicCities = async () => {
+    const loadCities = async () => {
       try {
-        const response = await fetch('/agent-recommendations.json')
-        if (!response.ok) throw new Error('Failed to load recommendations')
+        setLoading(true)
+        const firebaseCities = await getCitiesAsArray()
         
-        const data: RecommendationsData = await response.json()
-        
-        if (agentId && data.agents) {
-          const agentRecommendations = data.agents.find(a => a.agentId === agentId)
-          if (agentRecommendations?.cities && Array.isArray(agentRecommendations.cities) && agentRecommendations.cities.length > 0) {
-            setDynamicCities(agentRecommendations.cities)
-            console.log('[v0] Loaded dynamic cities for', agentId, ':', agentRecommendations.cities)
-          } else {
-            console.warn('[v0] No cities found for agent', agentId, ', using defaults')
-            setDynamicCities([])
-          }
+        if (firebaseCities && firebaseCities.length > 0) {
+          setCitiesToDisplay(firebaseCities)
+          console.log('[v0] Loaded', firebaseCities.length, 'cities from Firebase')
+        } else {
+          console.warn('[v0] No cities returned from Firebase, using fallback')
+          setCitiesToDisplay(FALLBACK_CITIES)
         }
+        setError(null)
       } catch (error) {
-        console.error('[v0] Error loading dynamic cities:', error)
-        setDynamicCities([])
+        console.error('[v0] Error loading cities from Firebase:', error)
+        setCitiesToDisplay(FALLBACK_CITIES)
+        setError('Error loading cities')
       } finally {
         setLoading(false)
       }
     }
 
-    loadDynamicCities()
-  }, [agentId])
-
-  // Fallback cities if dynamic not loaded
-  const defaultCities = [
-    { name: "Santiago", icon: "🏔️", country: "Chile" },
-    { name: "Mendoza", icon: "🍷", country: "Argentina" },
-    { name: "Buenos Aires", icon: "🎭", country: "Argentina" },
-    { name: "Lima", icon: "🌊", country: "Peru" },
-    { name: "Bogota", icon: "🌿", country: "Colombia" },
-  ]
-
-  // Use dynamic cities if available, otherwise use defaults
-  const citiesToDisplay = dynamicCities.length > 0 
-    ? dynamicCities.map(name => ({
-        name,
-        icon: getEmojiForCity(name),
-        country: getCountryForCity(name)
-      }))
-    : defaultCities
+    loadCities()
+  }, [agentId]) // Re-fetch if agentId changes
 
   return (
     <div className="space-y-6">
@@ -98,6 +63,11 @@ export function CitySelector({ value, onChange, agentId }: CitySelectorProps) {
           {t('checkin.city.title')}
         </h2>
         <p className="text-sm text-muted-foreground">{t('checkin.city.description')}</p>
+        {error && (
+          <p className="text-xs text-amber-600 bg-amber-50 dark:bg-amber-950 rounded-lg p-2 mt-2">
+            {error}
+          </p>
+        )}
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -142,58 +112,4 @@ export function CitySelector({ value, onChange, agentId }: CitySelectorProps) {
   )
 }
 
-function getEmojiForCity(city: string): string {
-  const emojiMap: Record<string, string> = {
-    "Santiago": "🏔️",
-    "Mendoza": "🍷",
-    "Buenos Aires": "🎭",
-    "Lima": "🌊",
-    "Bogota": "🌿",
-    "Mexico City": "🌮",
-    "Madrid": "☀️",
-    "Barcelona": "🏛️",
-    "São Paulo": "🎆",
-    "Miami": "🌴",
-    "Nueva York": "🗽",
-    "Londres": "👑",
-    "Paris": "✨",
-    "Berlin": "🏰",
-    "Amsterdam": "🚲",
-    "Tokyo": "🌸",
-    "Bangkok": "🏯",
-    "Estambul": "🕌",
-    "Dubai": "🌆",
-    "Sydney": "🦘",
-    "Toronto": "🍁",
-    "Ciudad de Mexico": "🦅",
-  }
-  return emojiMap[city] || "📍"
-}
 
-function getCountryForCity(city: string): string {
-  const countryMap: Record<string, string> = {
-    "Santiago": "Chile",
-    "Mendoza": "Argentina",
-    "Buenos Aires": "Argentina",
-    "Lima": "Peru",
-    "Bogota": "Colombia",
-    "Mexico City": "Mexico",
-    "Madrid": "Spain",
-    "Barcelona": "Spain",
-    "São Paulo": "Brazil",
-    "Miami": "USA",
-    "Nueva York": "USA",
-    "Londres": "UK",
-    "Paris": "France",
-    "Berlin": "Germany",
-    "Amsterdam": "Netherlands",
-    "Tokyo": "Japan",
-    "Bangkok": "Thailand",
-    "Estambul": "Turkey",
-    "Dubai": "UAE",
-    "Sydney": "Australia",
-    "Toronto": "Canada",
-    "Ciudad de Mexico": "Mexico",
-  }
-  return countryMap[city] || "Unknown"
-}
